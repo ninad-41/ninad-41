@@ -4,29 +4,27 @@
     <script src="libraries/p5.sound.min.js"></script>
     <script src="libraries/matter.js"></script>
     <script src="libraries/p5.play.js"></script>
-    
-
     <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-database.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    
+         <script>
+          var firebaseConfig = {
+            apiKey: "AIzaSyCsaIlr8gbRF0qlbSdCFbxHec7I5LTiaG8",
+            authDomain: "fruit-collecter-1643b.firebaseapp.com",
+            databaseURL: "https://fruit-collecter-1643b-default-rtdb.firebaseio.com",
+            projectId: "fruit-collecter-1643b",
+            storageBucket: "fruit-collecter-1643b.appspot.com",
+            messagingSenderId: "807656237500",
+            appId: "1:807656237500:web:36e0c120b106ceb42163b9"
+          };
+          // Initialize Firebase
+          firebase.initializeApp(firebaseConfig);
+        </script>
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyAJ_J5SjuhNLFSI5HTl2dnUyAhHfrhqR0Q",
-    authDomain: "fruit-26db0.firebaseapp.com",
-    databaseURL: "https://fruit-26db0.firebaseio.com",
-    projectId: "fruit-26db0",
-    storageBucket: "fruit-26db0.appspot.com",
-    messagingSenderId: "154711358719",
-    appId: "1:154711358719:web:d3e45b0ab63e6fb1bd60ca"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-</script>
+    <!--Add Your JS files here -->
     <script src="js/player.js"></script>
     <script src="js/form.js"></script>
     <script src="js/game.js"></script>

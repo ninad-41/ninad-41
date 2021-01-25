@@ -24,7 +24,7 @@ function preload(){
   fruitGroup = new Group();
 }
 function setup() {
-  createCanvas(1000, 600);
+  createCanvas(1000,600);
   database = firebase.database();
   game = new Game();
   game.getState();
@@ -34,7 +34,7 @@ function setup() {
 
 function draw() {
   background(back_img);
-  
+  //console.log(player.index)
    if (playerCount === 2) {
      game.update(1);
    }
@@ -46,4 +46,5 @@ function draw() {
     
      game.end();
    }
+
 }
